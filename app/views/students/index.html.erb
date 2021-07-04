@@ -1,0 +1,5 @@
+<h1> Here are all the students: </h1>
+
+<% @students.each do |item| %>
+  <p> <%= item.first_name + " " + item.last_name%> </p>
+<% end %>
